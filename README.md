@@ -8,7 +8,7 @@ This repository contains Terraform configurations to create keypair, vpc, intern
 - Create VPC, IGW, Subnet, Route Table, Security Group & EC2 instance to test login using earlier created keypair.
 - Uses only Terraform to manage the whole infrastructure.
 
-## Prereqisites
+## Prerequisites
 
 - AWS CLI configured with appropriate permissions
 - Terraform installed
@@ -82,4 +82,10 @@ After applying the configuration:
 -  Key Pair, VPC, IGW, Subnet, Route Table, Security Group, EC2 will be created on AWS.
 -  use the private SSH key in `generated` directory to SSH into the EC2.
 ![Screenshot 2024-09-22 at 8 11 55 PM](https://github.com/user-attachments/assets/2f6e8634-80f8-4901-b627-c380ed20e607)
+
+5. Destory the whole setup after testing
+   ```
+   terraform destroy
+   ```
+   
 
