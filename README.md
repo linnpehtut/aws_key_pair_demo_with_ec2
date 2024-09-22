@@ -81,5 +81,5 @@ After applying the configuration:
 - `generated` directory is created containing the private SSH key
 -  Key Pair, VPC, IGW, Subnet, Route Table, Security Group, EC2 will be created on AWS.
 -  use the private SSH key in `generated` directory to SSH into the EC2.
-
+![Screenshot 2024-09-22 at 8 11 55 PM](https://github.com/user-attachments/assets/2f6e8634-80f8-4901-b627-c380ed20e607)
 
